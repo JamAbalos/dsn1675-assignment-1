@@ -1,0 +1,38 @@
+html {
+	box-sizing: border-box;
+	background-color: #d2d2d2;
+	color: #d2d2d2;
+	font: normal 100%/1.5 Georgia,serif;
+}
+
+body {
+	margin: 0;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+h1, h2, h3, h4 {
+	color: #d2d2d2;
+	font-family: "Slabo 27px", serif;
+}
+
+header {
+	background-color: #d2d2d2;
+	text-align: center;
+}
+
+h1 {
+	margin: 0;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none; 
+}
+
+nav li {
+	display: inline-block;
+}
