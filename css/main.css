@@ -1,7 +1,7 @@
 html {
 	box-sizing: border-box;
-	background-color: #d2d2d2;
-	color: #d2d2d2;
+	background-color: #74828F;
+	color: #000;
 	font: normal 100%/1.5 Georgia,serif;
 }
 
@@ -9,22 +9,33 @@ body {
 	margin: 0;
 }
 
+img {
+	display: block;
+	width: 100%;
+}
+
 *, *::before, *::after {
 	box-sizing: inherit;
 }
 
 h1, h2, h3, h4 {
-	color: #d2d2d2;
+	color: #000;
 	font-family: "Slabo 27px", serif;
 }
 
 header {
-	background-color: #d2d2d2;
+	background-color: #525564;
 	text-align: center;
+	padding: 1em 0;
 }
 
 h1 {
 	margin: 0;
+}
+
+nav {
+	font-size: 1.25rem;
+	margin-top: 1.5rem;
 }
 
 nav ul {
@@ -35,4 +46,70 @@ nav ul {
 
 nav li {
 	display: inline-block;
+}
+
+nav a {
+	display: inline-block;
+	padding: 0.5em o.75em;
+	background-color: #000;
+	border-radius: 8px;
+	text-decoration: none;
+	color: #96C0CE;
+}
+
+nav a:hover {
+	background-color: #96C0CE;
+	color: #000;
+}
+
+main {
+	padding: 0 1em;
+}
+
+.databox {
+	background-color: #96C0CE; 
+	border-radius: 8px;
+	overflow: hidden;
+	margin: 0;
+}
+
+.databox figcaption {
+	position: relative;
+}
+
+.databox h3 {
+	position: absolute;
+	background-color: rgba(150, 192, 206, 0.7);
+	border-radius: 8px 8px 0 0;
+	top: -3.6rem;
+	margin: 0;
+	padding: 1rem;
+	width: 100%;
+}
+
+.databox dl {
+	margin: 0 1rem;
+	position: relative;
+	padding: 0;
+}
+
+.databox dt {
+	position: absolute;
+	width: 33.3333%;
+	text-transform: uppercase;
+}
+
+.databox dt:nth-child(3) {
+	left: 33.3333%;
+}
+
+.databox dt:nth-child(5) {
+	left: 66.6666%;
+}
+
+.databox dd {
+	float: left;
+	padding: 1.5rem 0 1rem;
+	margin: 0;
+	width: 33.3333%;
 }
