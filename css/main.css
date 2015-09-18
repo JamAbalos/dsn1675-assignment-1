@@ -18,9 +18,30 @@ img {
 	box-sizing: inherit;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, p, ul, ol,dl, dd, dt, figure {
 	color: #000;
 	font-family: "Slabo 27px", serif;
+	margin: 0 0 1rem;
+}
+
+h1, .exa {
+  	font-size: 1.8020rem;
+  	line-height: 1.6648;
+}
+
+h2, .peta {
+  	font-size: 1.6018rem;
+  	line-height: 1.8729;
+}
+
+h3, .tera {
+  	font-size: 1.4238rem;
+  	line-height: 1.0535;
+}
+
+h4, .giga {
+  	font-size: 1.2656rem;
+  	line-height: 1.1852;
 }
 
 header {
@@ -112,4 +133,38 @@ main {
 	padding: 1.5rem 0 1rem;
 	margin: 0;
 	width: 33.3333%;
+}
+
+ul {
+	padding: 0;
+	list-style-type: none;
+}
+
+ul li {
+	position: relative;
+}
+
+ul li:before {
+	position: absolute;
+	left: -1em;
+}
+
+a,
+a:link {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+	color: #525564;
+}
+
+div {
+	display: block;
+	background-color: #96C0CE;
+    padding: 1rem;
+    margin: 0.5rem;
+    border-radius: 8px;
 }
