@@ -137,6 +137,7 @@ main {
 	position: absolute;
 	width: 33.3333%;
 	text-transform: uppercase;
+	color: #525564;
 }
 
 .databox dt:nth-child(3) {
@@ -206,7 +207,13 @@ div {
 	background-color: #FFF;
 }
 
+strong {
+	text-transform: uppercase;
+	color: #525564;
+}
+
 footer {
 	padding: 1rem;
 	background-color: #525564;
+	font-weight: bold;
 }
