@@ -75,17 +75,13 @@ nav ul {
 	list-style-type: none; 
 }
 
-nav li {
-	display: inline-block;
-}
-
 nav a {
-	display: inline-block;
-	padding: 0.5em 0.75em;
+	display: block;
+	padding: 0.5em 0.5em;
 	background-color: #000;
-	border-radius: 8px;
 	text-decoration: none;
 	color: #96C0CE;
+	margin: 0.25rem;
 }
 
 nav a:hover {
@@ -144,23 +140,14 @@ main {
 }
 
 .databox dt {
-	position: absolute;
 	width: 33.3333%;
 	text-transform: uppercase;
 	color: #525564;
 }
 
-.databox dt:nth-child(3) {
-	left: 33.3333%;
-}
-
-.databox dt:nth-child(5) {
-	left: 66.6666%;
-}
-
 .databox dd {
 	float: left;
-	padding: 1.5rem 0 1rem;
+	padding: 0 0 1rem;
 	margin: 0;
 	width: 33.3333%;
 }
@@ -227,3 +214,52 @@ footer {
 	background-color: #525564;
 	font-weight: bold;
 }
+
+@media only screen and (min-width: 38em) {
+	nav {
+		text-align: center;
+	}
+
+	nav li {
+		display: inline-block;
+	}
+
+	nav a {
+	display: inline-block;
+	padding: 0.5em 0.75em;
+	border-radius: 8px;
+}
+
+	.databox dt {
+		position: absolute;
+	}
+
+	.databox dt:nth-child(3) {
+		left: 33.3333%;
+	}
+
+	.databox dt:nth-child(5) {
+		left: 66.6666%;
+	}
+
+	.databox dd {
+		padding: 1.5rem 0 1rem;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
